@@ -33,7 +33,7 @@
     align-items:center;
     height:6vw;
     opacity:0;
-    animation: slide-in 1s 0.45s forwards; */
+    animation: slide-in 1s 0.45s forwards;
 }
 
 .title h1 {
