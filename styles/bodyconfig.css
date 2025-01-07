@@ -4,8 +4,24 @@ body {
     justify-content:center;
     align-items:center;
     display:block;
-    background: var(--bodygradient);
     overflow:hidden;
     max-width: fit-content;
 }
+
+/* @font-face {
+    font-family: 'Roboto Flex', serif;
+    font-style: normal;
+    font-weight: 400 700;
+    font-stretch: 50% 200%;
+    src: url(https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,100..1000&display=swap)
+} */
+
+/* .roboto-flex-wide {
+    font-family: "Roboto Flex", serif;
+    font-optical-sizing:auto;
+    font-weight:700;
+    font-style:normal;
+    font-variation-settings:
+        "wdth" 200;
+} */
 

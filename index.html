@@ -8,16 +8,13 @@
     <link rel="stylesheet" href="styles/bodyconfig.css">
     <link rel="stylesheet" href="styles/variables.css">
     <link rel="stylesheet" href="styles/animations.css">
-    <link rel="stylesheet" href="styles/material-symbols.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
-    <link rel="stylesheet" href="style.css">
-    <!-- <script src="node_modules/jquery/dist/jquery.min.js"></script> -->
-    <!-- <script src="animations.js"></script> -->
-    <!-- <script src="index.js" async></script> -->
-
+    <link rel="stylesheet" href="styles/navstyle.css">
+    <link rel="stylesheet" href="styles/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Krona+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wdth,wght,GRAD@8..144,25..151,100..1000,-200..150&display=swap" rel="stylesheet">
+    <!-- <link href="https://fonts.googleapis.com/css2?family=Krona+One&display=swap" rel="stylesheet"> -->
     <title>Document</title>
 </head>
 <body>
@@ -25,20 +22,38 @@
     <script src="index.js" async></script>
 
     <div class="title">
-        <h1>Portfolio</h1>
-        <h2>Ollie Ring</h2>
-        <h2> Contacts: </h2>
-        <h2> Discord: xepois </h2>
-        <h2> Twitter: bad_devRBLX </h2>
-        <h2> Email: xepoisdoes@gmail.com </h2>
+        <ul class="navbar">
+            <button onClick="document.getElementByClassName('title').scrollIntoView()">Home</button>
+            <button onClick="document.getElementByClassName('about').scrollIntoView()">About me</button>
+            <button onClick="document.getElementByClassName('experience').scrollIntoView()">Experience</button>
+            <button onClick="document.getElementByClassName('contact').scrollIntoView()">Contact</button>
+        </ul>
+
+        
+        <h2>Xepois</h2>
+        <div id="programmertitle">
+            <h1>Game Programmer</h1>
+            <img src="/images/wave-emoji.webp" height="80%" width="auto"></img>
+        </div>
+        <h2>Full Stack, ROBLOX</h2>
+
     </div>
 
-    <div class= "home">
-        <!-- <button type="button" id="enter-site">click</button> -->
-        <button type="button" id="enter-site" onclick="EnterSite()">
-            <span class="material-symbols-rounded" id="entericon">expand_more</span>
-        </button>
-        <!-- <h1> Website Under Construction</h1> -->
+    <div class= "about">
+
+        <h2> Hi! I am a Full-Stack Developer on ROBLOX with programming experience in LuaU, NodeJS, Python and easily able to adapt to other programming languages.</h2>
+        
+    </div>
+
+    <div class="experience">
+
+    </div>
+
+    <div class="contact">
+        <!-- <h2> Contacts: </h2>
+        <h2> Discord: xepois </h2>
+        <h2> Twitter: bad_devRBLX </h2>
+        <h2> Email: xepoisdoes@gmail.com </h2> -->
     </div>
 
 </body>

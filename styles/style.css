@@ -1,0 +1,72 @@
+@media (min-width:700px)
+{
+    .title h1 {font-size: 6vw}
+    .title h2 {font-size: 3vw}
+}
+
+.title {
+    padding:0;
+    margin:0;
+    display:block;
+    position:absolute;
+    top:20%;
+    left:10%;
+
+    width:80%;
+    height:20vh;
+    /* background:red; */
+
+}
+
+.title img {
+    margin:0;
+    padding-top:10px;
+    opacity: 0;
+
+    animation: opacity-in-out 3s 0.5s alternate infinite;
+}
+
+.title #programmertitle {
+    position:relative;
+    display:flex;
+    gap:30px;
+    align-items:center;
+    height:6vw;
+    opacity:0;
+    animation: slide-in 1s 0.45s forwards; */
+}
+
+.title h1 {
+    position:relative;
+    padding:0;
+    margin:0;
+    /* top:0; */
+    font-family: 'Roboto Flex';
+    font-weight: 700;
+    font-stretch: 100%;
+    font-size:5vw;
+    color: white;
+    /* opacity:0; */
+    /* animation: slide-in 1s 0.45s forwards; */
+}
+
+.title h2 {
+    position:relative;
+    padding:0;
+    margin:0;
+    font-family: "Roboto Flex";
+    font-stretch:100%;
+    font-weight: 400;
+    color:white;
+    font-size:3.5vw;
+    opacity: 0;
+    animation: slide-in 1s 0.5s forwards;
+}
+
+.about {
+    padding:0;
+    margin:0;
+    display:block;
+    font-family: "Roboto Flex";
+    color: white;
+}
