@@ -1,0 +1,35 @@
+html, body {
+    scroll-behavior: smooth !important;
+    margin:auto;
+    margin-left:10%;
+    margin-right:10%;
+    padding:0;
+    justify-content:center;
+    align-items:center;
+    display:block;
+    max-width: fit-content;
+}
+
+:root {
+    background-color: #171717;
+    /* --bodygradient: linear-gradient(39deg, rgba(5,0,88,1) 0%, rgba(0,152,182,1) 100%); */
+    --col1: #171717;
+}
+
+/* @font-face {
+    font-family: 'Roboto Flex', serif;
+    font-style: normal;
+    font-weight: 400 700;
+    font-stretch: 50% 200%;
+    src: url(https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,100..1000&display=swap)
+} */
+
+/* .roboto-flex-wide {
+    font-family: "Roboto Flex", serif;
+    font-optical-sizing:auto;
+    font-weight:700;
+    font-style:normal;
+    font-variation-settings:
+        "wdth" 200;
+} */
+

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wdth,wght,GRAD@8..144,25..151,100..1000,-200..150&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/bodyconfig.css" type="text/css"/>
+    <link rel="stylesheet" href="styles/navstyle.css" type="text/css"/>
+    <link rel="stylesheet" href="styles/style.css" type="text/css"/>
+    <link rel="stylesheet" href="styles/animations.css" type="text/css"/>
+    <!-- <link href="https://fonts.googleapis.com/css2?family=Krona+One&display=swap" rel="stylesheet"> -->
+    <title>Bad_Dev</title>
+    <script>history.scrollRestoration = "manual"</script>
+</head>
+<body>
+    <script src="index.js?version=2" async></script>
+    
+
+    <div class="navbar">
+        <button onClick="document.getElementById('home').scrollIntoView({behavour: 'smooth'})">Home</button>
+        <button onClick="document.getElementById('about').scrollIntoView({behavour: 'smooth'})">About me</button>
+        <button onClick="document.getElementById('experience').scrollIntoView({behavour: 'smooth'})">Experience</button>
+        <button onClick="document.getElementById('contact').scrollIntoView({behavour: 'smooth'})">Contact</button>
+    </div>
+
+    <div class="home" id="title">
+        <h2>Xepois</h2>
+        <div id="programmertitle">
+            <h1>Game Programmer</h1>
+            <img src="/images/wave-emoji.webp" height="80%" width="auto"></img>
+        </div>
+        <h2>Full Stack, ROBLOX</h2>
+
+    </div>
+
+    <div class= "about" id="about">
+        <h1 id="titletext">About Me</h1>
+        <h1>Hi There!</h1>
+        <h2>I am a full-stack capable developer on ROBLOX with 5+ years of experience, from this career I have learnt to be fluent in Lua and LuaU, and have intermediate knowledge working in NodeJS and Python. This has also allowed me to become easily able to adapt to programming languages that I'm not the most knowledgable in, I can learn quick with documentation and understand code logic in quick time.</h2>
+        
+    </div>
+
+    <div class="experience" id="experience">
+        <h1 id="titletext">Experiences</h1>
+        <div class="game" id="swfl">
+            <div id="gameimage">
+                <img src="images/swflimage.webp" type="images/webp"></img>
+            </div>
+            <div id="gameinfo">
+                <div id="gametitle">
+                    <h1>Southwest Florida</h1>
+                    <button onclick="location.href = 'https://www.roblox.com/games/5104202731/WINTER-UPDATE-Southwest-Florida-Beta'">Visit Experience</button>
+                </div>
+                <h3 id="date">Aug 2020 - Present</h3>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="contact" id="contact">
+        <h2 id="titletext">Contacts</h2>
+        <div id="contactbox">
+            <h2>Name: Ollie R</h2>
+            <h2>Discord: xepois</h2>
+            <h2>Twitter: bad_devRBLX</h2>
+            <h2>Email: baddevcontact@gmail.com</h2>
+        </div>
+        
+    </div>
+
+</body>
+</html>
