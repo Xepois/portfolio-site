@@ -21,6 +21,7 @@
     width:5%;
     font-size:1.8vw;
     transition:all .5s ease;
+    cursor:pointer;
 }
 
 .navbar button::before {
@@ -41,4 +42,5 @@
     border:none;
     background:none;
     color: white;
+    cursor:default;
 }

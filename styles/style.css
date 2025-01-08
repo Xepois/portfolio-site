@@ -1,22 +1,21 @@
 @media (min-width:700px)
 {
-    .title h1 {font-size: 6vw}
-    .title h2 {font-size: 3vw}
+    .home h1 {font-size: 6vw}
+    .home h2 {font-size: 3vw}
 }
 
-.title {
+.home {
     padding:0;
     margin:0;
-    margin-top:250px;
+    margin-top:12vw;
     display:block;
     /* position:absolute; */
     left:10%;
-    width:80%;
     height:fit-content;
     /* background:red; */
 }
 
-.title img {
+.home img {
     margin:0;
     padding-top:10px;
     opacity: 0;
@@ -24,17 +23,17 @@
     animation: opacity-in-out 3s 0.5s alternate infinite;
 }
 
-.title #programmertitle {
+.home #programmertitle {
     position:relative;
     display:flex;
-    gap:30px;
+    gap:3vw;
     align-items:center;
     height:6vw;
     opacity:0;
     animation: slide-in 1s 0.45s forwards;
 }
 
-.title h1 {
+.home h1 {
     position:relative;
     padding:0;
     margin:0;
@@ -48,7 +47,7 @@
     /* animation: slide-in 1s 0.45s forwards; */
 }
 
-.title h2 {
+.home h2 {
     position:relative;
     padding:0;
     margin:0;
@@ -61,7 +60,7 @@
     animation: slide-in 1s 0.5s forwards;
 }
 
-#title {
+#titletext {
     text-align:center;
     font-size:4vw;
     font-weight:700;
@@ -71,7 +70,7 @@
 .about {
     padding:0;
     margin:0;
-    margin-top:250px;
+    margin-top:15vw;
     font-family: "Roboto Flex";
     color: white;
 }
@@ -91,24 +90,85 @@
 .experience {
     padding:0;
     margin:0;
-    margin-top:250px;
+    margin-top:15vw;
     font-family: "Roboto Flex";
     color: white;
+}
+
+.experience .game {
+    padding:0;
+    margin:0;
+    margin-bottom:50px;
+    align-items:center;
+    height:15vw;
+    display: flex;
+}
+
+.experience .game #gameimage img {
+    width: 20vw;
+    margin-right:1vw;
+    height: auto;
+}
+
+.experience #gametitle {
+    align-items:center;
+    display:flex;
+    gap:2vw;
+    padding:0;
+    margin:0;
+    
+    button {
+        font-family: "Roboto Flex";
+        color:white;
+        font-size:1vw;
+        font-weight:700;
+        font-stretch:100%;
+        padding:0.5vw;
+        background:#27BB3B;
+        border-color:transparent;
+        border-radius: .5vw;
+        text-align:center;
+        transition: all 0.5s;
+        cursor:default;
+    }
+
+    button:hover {
+        background:#197726;
+        transition: all 0.5s;
+        cursor:pointer;
+    }
 }
 
 .experience h1 {
     color:white;
     text-decoration: none;
-    text-decoration-thickness:0;
+    text-decoration-line: none;
     font-size:2.5vw;
     font-weight:700;
     font-stretch:100%;
+    padding:0;
+    margin:0;
+}
+.experience #date {
+    padding:0;
+    margin:0;
+    font-weight:300;
+    font-size:1.25vw;
 }
 
 .contact {
+    font-family: "Roboto Flex";
     padding:0;
     margin:0;
-    margin-top:250px;
-    font-family: "Roboto Flex";
+    margin-top:15vw;
+    margin-bottom:250px;
     color: white;
+}
+
+.contact #contactbox, .contact #contactbox h2 {
+    font-weight: 400;
+    font-stretch:100%;
+    font-size:2vw;
+    text-align:center;
+    /* display:inline-flexbox; */
 }
